@@ -1,0 +1,931 @@
+@import url('https://fonts.googleapis.com/css2?family=Barrio&family=Lato:wght@300;700&display=swap');
+
+/* website yes yes */
+
+/**{
+	box-sizing: border-box;
+}
+
+.desc li{
+	max-width:0px;
+}*/
+
+header{
+	background-color: ;
+}
+
+
+body{
+  font-family: 'lato', sans-serif;
+  margin: 0;
+  background-color: skyblue;
+  background-image: url(images/.jpg);
+   background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size:cover;
+  background-position: 50% 42%;
+}
+
+:root {
+  overscroll-behavior: none;
+  overflow-x: hidden; // or you could use overflow-x: clip
+}
+
+/* fix the scroll bounce: https://jeffbridgforth.com/fix-scroll-bounce-with-css-some-gotchas/*/
+
+h1{
+font-family: 'Barrio', cursive;
+}
+
+h1{
+	text-align:center;
+	font-size:4em;
+}
+header p{
+	text-align: center;
+	position: relative;
+	bottom: 15px;
+	color: gray;
+	font-weight: bold;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+
+}
+
+
+
+
+
+/*.fixerup{
+	position: fixed;
+	margin-top: 100px;
+	float: left;
+
+	margin-left: 20px;
+	border-radius: 90px;
+
+}
+*/.bar{
+	position: fixed;
+	margin-top: 70px;
+	float: left;
+	background-color:rgba(20, 20, 20, 1.0);
+	margin-left: 105px;
+	border-radius: 25px;
+	text-align: left;
+	padding-bottom: 300px;
+	padding-right: 45px;
+	padding-top: 2%;
+
+}
+
+.bar2{
+	position: relative;
+	margin-top: 0px;
+	float: left;
+	background-color:black;
+	margin-left: 120px;
+	border-radius: 25px;
+	text-align: left;
+	padding-bottom: 45px;
+	padding-right: 250px;
+	padding-left: 250px;
+	padding-top: 0%;
+}
+
+.bar2 span{
+	position: fixed;
+	margin-top:40px;
+	background-color: blue;
+	padding-right: 250px;
+}
+
+/*.otherbar> li{
+	display:block;
+}
+
+
+
+.sec .otherbar:hover li{
+	display: inline-block;
+}*/
+
+
+nav li span {
+  position: relative;
+  left: -20px;
+
+
+
+
+}
+/* control list postion to bullets: https://stackoverflow.com/a/4373216*/
+
+
+/*nav ul {
+	list-style-type: none;
+	text-align: left;
+
+}
+*/
+/*nav li {
+	display: inline;
+}*/
+
+/*nav a{
+	text-decoration: none;
+	padding-right: 1px;
+}
+*/
+
+.hider{
+	display: none;
+}
+
+/*.secspan {
+  position: relative;
+  left: -20px;
+  background-color: red;
+ }*/
+
+nav a:link{
+	color:darkblue;
+}
+
+nav a :link{
+	color:white;
+}
+
+nav .inner a:link{
+	color:darkblue;
+}
+
+nav .mydiv a:link{
+	color:whitesmoke;
+}
+nav .mydiv a:hover{
+	color:gray;
+}
+
+nav a:visited{
+	color:lightblue;
+}
+
+nav a:hover{
+	color:gray;
+}
+
+nav .mydiv:hover~.hider .mobile{
+	color:gray;
+	display: inline-block;
+	background-color: white;
+	padding:  px;
+	border-radius: 5px;
+/*	the adjacent selector(.hider) child of the same parent will have these values on hover*/
+
+}
+
+
+.hider .mobile:hover{
+	display: block;
+		background-color: white;
+		padding: 0 0px;
+		border-radius: 5px;
+		float:;
+}
+
+/*.mobile on the hover tags makes it exlcusive that mobile tags can be hovered*/
+
+nav li .hider{
+	display: inline-block;
+	position: absolute;
+	left: 16px;
+	bottom: 1px;
+	z-index: 3;
+}
+
+
+nav li .mydiv{
+	margin-bottom: 15px;
+}
+
+
+
+
+
+/*
+.desktop{
+}
+
+
+nav li{
+	display: inline-block;
+}
+
+nav li .hider{
+	display: block;
+}*/
+
+/*
+div .hider{
+	display: inline-block;
+	position: relative;
+	bottom: 100%;
+}
+
+.mobile
+{
+	display: none;
+}
+*/
+
+li{
+	width:min(0, 0);
+}
+
+
+
+/*nav .mydiv:hover~.hider{
+	color:gray;
+	display: block;
+	background-color: white;
+	padding: 0 0px;
+	border-radius: 5px;
+
+the adjacent selector(.hider) child of the same parent will have these values on hover
+
+}
+
+.hider:hover{
+	display: block;
+		background-color: white;
+		padding: 0 0px;
+		border-radius: 5px;
+		float: right;
+}
+
+li{
+	width:min(0, 0);
+} */
+
+/* display on hover: https://www.w3schools.com/howto/howto_css_display_element_hover.asp*/
+
+nav a:active{
+	color:20, 20, 20, 1.0;
+}
+
+nav a{
+	padding:none;
+}
+
+nav li {
+	list-style-type:none;
+}
+
+
+main li{
+/*	display:block;
+	white-space: nowrap;
+	max-width: 100%;*/
+	list-style-type: ;
+}
+
+main ul{
+	text-align: left;
+	max-width: 100%;
+}
+
+.pagetitle{
+	max-width: 1000px;
+	text-align: center;
+	display: block;
+	font-size: 32px;
+
+
+}
+
+main span{
+				background-color:rgba(255, 255, 255, .6);
+			border-radius: 15px;
+			padding: 0 15px;
+}
+
+main li span {
+  position: relative;
+  left: -20px;
+}
+
+main{
+	max-width: 1000px;
+	margin:30% 20%;
+}
+
+main a{
+	color: darkblue;
+}
+
+h4, h5{
+
+	font-weight: bold;
+}
+
+
+.centerscroll{
+/*	display: flex;
+	flex-direction: column;
+	align-items:start;
+	justify-content: start;*/
+	margin: 0% 0%;
+  max-width: 1000px;
+/*	position: relative;*/
+	background-color:whitesmoke;
+	padding: 50px;
+	border-radius: 5px;
+}
+
+.port{
+	background-color: whitesmoke;
+	padding: 50px;
+	max-width: px;
+
+}
+
+
+.row{
+	text-align: center;
+}
+
+footer{
+	text-align:center;
+	border-top: none;
+	padding: 10px;
+	background-color: black;
+	color: white;
+}
+
+footer a{
+	color: skyblue;
+}
+
+/*css for tablets*/
+@media only screen and (max-width: 10024px){
+	h1{
+		font-size: 2em;
+	}
+nav li .hider .mobile{
+	display: none;
+}
+
+.bar2{
+	display: none;
+}
+
+.otherbar{
+	position: fixed;
+
+
+}
+
+.otherbar{
+	margin-top: 60px;
+	margin-left: 100px;
+	border-radius: 25px;
+	text-align: left;
+	padding-bottom: 10%;
+	padding-top: 2%;
+	background-color:;
+
+
+}
+
+main .mobile{
+	display: none;
+}
+
+#div1 img{
+	height:auto;
+	width: 100%;
+
+}
+
+#div1{
+	display: flex;
+	justify-content: center;
+}
+
+.gc{
+	background-color:;
+	display: grid;
+		grid-auto-rows: 250px;
+	grid-auto-columns:100px;
+	grid-gap: 5px;
+	min-width:;
+	justify-content: center;
+	font-size: 1.5em;
+	font-weight:700;
+	color: gray;
+	grid-template-areas: 
+	"b1 b2 b3 b3"
+	"b4 b4 b6 b6"
+	"b5 b5 b8 b8"
+	"b7 b7 b9 b9"
+	"b7 b7 b10 b10";
+
+
+}
+
+.g1,.g2,.g3,.g4,.g5,.g6,.g7,.g8,.g9,.g10{
+	border-radius: 5px;
+	background-color:;
+		overflow: hidden;
+}
+
+.g1{
+	grid-area: b1;
+		display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.g2{
+	grid-area: b2;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.g3{
+	grid-area: b3;
+		display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.g4{
+	grid-area: b4;
+		display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.g5{
+	grid-area: b5;
+		display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.g6{
+	grid-area: b6;
+		display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.g7{
+	grid-area: b7;
+		display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.g8{
+	grid-area: b8;
+		display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.g9{
+	grid-area: b9;
+		display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.g10{
+	grid-area: b10;
+		display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+
+.gc img {
+
+	height: 100%;
+	width: auto;
+	border-radius: 5px;
+   transform:scale(1);
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+
+video{
+	border-radius: 5px;
+}
+
+
+.grid3{
+		background-color:;
+	display: grid;
+
+	grid-gap: 5px;
+	min-width:;
+	justify-content: center;
+	font-size: 1.5em;
+	font-weight:700;
+	color: gray;
+	grid-template-areas: 
+	"r1 r1 r2 r2"
+	"r3 r4 r5 r6";
+
+	.roadd,.roadv,.road1,.road2,.road3{
+	border-radius: 5px;
+	background-color:;
+		display: flex;
+		flex-direction: column;
+	align-items: center;
+}
+
+}
+.roadd{
+	grid-area: r1;
+}
+.roadv{
+	grid-area: r2;
+}
+.road1{
+	grid-area: r3;
+}
+.road2{
+	grid-area: r4;
+}
+.road3{
+	grid-area: r5;
+}
+.road4{
+	grid-area: r6;
+}
+
+.grid3 img {
+
+	height: auto;
+	width: 100%;
+	border-radius: 5px;
+}
+
+.cof img{
+	height: auto;
+	width: 50%;
+}
+.cof{
+		display: flex;
+	flex-direction: column;
+	align-items: center;
+padding-top: 5%;
+}
+
+
+.gc div:hover img{
+	 transform:scale(1.2);
+}
+
+.text{
+	transition: .5s ease;
+	opacity: 0;
+	position: absolute;
+}
+
+.caption{
+	display: flex;
+	flex-direction: column;
+	align-content: ;
+	text-align: center;
+}
+
+.date{
+	margin-top:100px;
+	left: 20px;
+	font-size: 1em;
+	font-weight: 200;
+}
+.gc div:hover .text{
+	opacity: 1;
+}
+
+
+.grid1 img {	height: 100%;
+width: 100%;
+border-radius: 5px;
+}
+
+
+/*second container*/
+
+
+}
+.big{
+  maxwidth:500px;
+
+  background-color:;
+    overflow:scroll;
+    overscroll-behavior: none;
+    border-radius: 10px;
+}
+.grid1{
+  display:grid;
+   background-color:;
+ grid-template-columns: 200px 190px 210px 220px auto;
+  grid-auto-rows: 360px;
+  grid-gap:5px;
+  grid-template-areas:"c1 c2 c3 c4 c5";
+}
+
+.s1,.s2,.s3,.s4,.s5,.s6,.s7,.s8,.s9,.s10,.s11,.s12{
+    background-color:;
+}
+
+.s1{
+  grid-area: c1;
+}
+.s2{
+  grid-area: c2;
+}
+.s3{
+  grid-area: c3;
+}
+.s4{
+  grid-area: c4;
+}
+.s5{
+  grid-area: c5;
+}
+.s6{
+  grid-area: c6;
+}
+.s7{
+  grid-area: c7;
+}
+.s8{
+  grid-area: c8;
+}
+
+.s9{
+  grid-area: c9;
+}
+.s10{
+  grid-area: c10;
+}
+.s11{
+  grid-area: c11;
+}
+.s12{
+  grid-area: c12;
+}
+
+.dgimbox{
+	display: flex;
+	flex-wrap: wrap;
+	row-gap: 10px;
+	column-gap: 10px;
+	justify-content: center;
+
+}
+
+.dgimbox img{
+	max-width: 100%;
+	max-height: 200px;
+	
+}
+
+.dgimbox div{
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+
+}
+
+h5{
+	text-align:;
+}
+
+
+
+}
+
+/*css for smartphones*/
+
+@media only screen and (max-width: 768px){
+	h1{
+		font-size: 1.5em;
+
+	}
+
+	header p{
+		font-size: 0.75em;
+	}
+
+
+
+h6 {font-size:1em
+}
+
+/*other*/
+.mobile
+  {display:block}
+}
+
+
+
+
+@media only screen and
+(max-width:768px){
+	.desktop{
+		display:none;
+	}
+
+	.mobile{
+		display:inline-block;
+		text-align: left;
+
+/*		display inline block intead of block so no stack*/
+	}
+
+main .mobile{
+	display: inline-block;
+	text-align: center;
+
+}
+
+
+
+	nav li .hider .mobile{
+		display: inline-block;
+		background-color:grey;
+		float: left;
+		position: relative;
+		border-radius: 5px;
+
+}
+
+nav li .hider{
+	position: relative;
+	z-index: 3;
+}
+
+
+
+/*nav ul{
+	background-color: white;
+}*/
+
+
+details li{
+	display: block;
+}
+
+.bar2{
+	display: block;
+}
+.otherbar{
+	position: relative;
+	bottom: 50px;
+}
+
+.otherbar{
+	display: flex;
+	justify-content: center;
+	flex-wrap:nowrap;
+
+/*	old*/
+	margin-top: 0px;
+	margin-left: 0%;
+	border-radius: 25px;
+	text-align: left;
+	background-color:;
+
+
+}
+
+.gc{
+	background-color:;
+	display: grid;
+	grid-auto-rows: 200px;
+	grid-auto-columns:minmax(100px, 1fr);
+	grid-gap: 5px;
+	grid-template-areas: 
+	"b1 b2"
+	"b3 b4"
+	"b5 b5"
+	"b5 b5"
+	"b6 b6"
+	"b6 b6"
+	"b7 b8"
+	"b9 b10";
+
+}
+
+.g3{
+	grid-area: b3;
+	background-color: ;
+		display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.g4{
+	grid-area: b4;
+	background-color: ;
+		display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+
+.grid3{
+		background-color:;
+	display: grid;
+
+	grid-gap: 5px;
+	min-width:;
+	justify-content: center;
+	font-size: 1.5em;
+	font-weight:700;
+	color: gray;
+	grid-template-areas: 
+	"r1"
+	"r2"
+	"r3"
+	"r4"
+	"r5"
+	"r6";
+
+
+}
+
+/*css smaller*/
+
+@media only screen and
+(max-width:560px){
+	.desktop{
+		display:none;
+	}
+
+nav .mobile{
+	display: block;
+}
+
+.otherbar{
+	display: flex;
+	flex-direction: column;
+	align-content: center;
+	align-items: center;
+
+/*	old */
+	flex-wrap: wrap;
+		margin-left:10px;
+		padding: 0;
+}
+
+/*.hider{
+	background-color:;
+	margin-top:;
+}
+
+.hider li span{
+	background-color: red;
+}*/
+
+.pagetitle{
+	max-width: 1000px;
+	text-align: center;
+	display: block;
+	font-size: 24px;
+
+
+}
+
+.gc{
+	background-color:;
+	display: grid;
+	grid-auto-rows: 200px;
+	grid-auto-columns:1fr;
+	grid-gap: 5px;
+	grid-template-areas: 
+	"b1"
+	"b2"
+	"b3"
+	"b4"
+	"b5"
+	"b6"
+	"b7"
+	"b8"
+	"b9"
+	"b10"
+
+
+}
+
+}
+
